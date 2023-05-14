@@ -26,4 +26,12 @@ export class ApiService {
             })
         );
     }
+
+    public obtenerUbicaciones(): Observable<any> {
+        return this.httpClient.get(`${this.urlBase}location`).pipe(
+            map(response => {
+                return response;
+            })
+        );
+    }
 }

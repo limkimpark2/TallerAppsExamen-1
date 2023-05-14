@@ -1,1 +1,23 @@
-<p>ubicaciones</p>
+<div>
+    <div class="ubicaciones">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>ID.</th>
+                    <th>Nombre Ubicacion</th>
+                    <th>Tipo</th>
+                    <th>Dimensión</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let ubicacion of ubicaciones">
+                    <td>{{ubicacion.id}}</td>
+                    <td>{{ubicacion.name}}</td>
+                    <td>{{ubicacion.type}}</td>
+                    <td>{{ubicacion.dimension}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
