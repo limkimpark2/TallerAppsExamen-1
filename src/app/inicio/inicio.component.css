@@ -1,0 +1,22 @@
+.menus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.menu__enlace {
+    text-decoration: none;
+    color: #1871c3;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.menu__descripcion {
+    padding: 1rem;
+}
+
+.menu__imagen {
+    width: 100%;
+    object-fit: cover;
+}
