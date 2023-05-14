@@ -1,0 +1,11 @@
+<div class="contenedor-personajes">
+    <div *ngFor="let personaje of personajes">
+        {{personaje.name}}
+
+        <img class="personaje-imagen" [src]="personaje.image" [alt]="personaje.image">
+
+        <p>{{personaje.status}}</p>
+        <p>{{personaje.species}}</p>
+        <p>{{personaje.gender}}</p>
+    </div>
+</div>

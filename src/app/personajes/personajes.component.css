@@ -1,0 +1,10 @@
+.contenedor-personajes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+    gap: 1rem;
+}
+
+.personaje-imagen {
+    width: 100%;
+    object-fit: cover;
+}

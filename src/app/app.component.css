@@ -1,0 +1,32 @@
+.navegacion {
+    background-color: #1871c3;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion__lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion__item {}
+
+.navegacion__enlace {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.contenido {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
