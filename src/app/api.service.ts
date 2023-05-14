@@ -18,4 +18,12 @@ export class ApiService {
             })
         );
     }
+
+    public obtenerEpisodios(): Observable<any> {
+        return this.httpClient.get(`${this.urlBase}episode`).pipe(
+            map(response => {
+                return response;
+            })
+        );
+    }
 }

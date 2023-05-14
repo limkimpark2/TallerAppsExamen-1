@@ -1,1 +1,23 @@
-<p>episodios works!</p>
+<div>
+    <div class="episodios">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>ID.</th>
+                    <th>Nombre episodio</th>
+                    <th>Fecha de lanzamiento</th>
+                    <th>Episodio</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let episodio of episodios">
+                    <td>{{episodio.id}}</td>
+                    <td>{{episodio.name}}</td>
+                    <td>{{episodio.air_date}}</td>
+                    <td>{{episodio.episode}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
